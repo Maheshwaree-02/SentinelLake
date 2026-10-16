@@ -1,0 +1,32 @@
+# =============================================================================
+# Fraud Intelligence & Risk-Aware Recommendation Platform
+# =============================================================================
+
+# --- Core Data ---
+pandas
+numpy
+pyarrow
+
+# --- ML & Visualization ---
+scikit-learn
+matplotlib
+seaborn
+
+# --- API Serving ---
+fastapi
+uvicorn[standard]
+pydantic
+
+# --- Database ---
+sqlalchemy
+psycopg2-binary
+
+# --- Dashboard ---
+streamlit
+plotly
+
+# --- Config ---
+python-dotenv
+
+# --- Notebooks ---
+jupyter

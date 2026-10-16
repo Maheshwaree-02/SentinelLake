@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+logs/
+*.log
+.ipynb_checkpoints/
+.DS_Store
+.hadoop/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Raw dataset (downloaded separately)
+data/raw/*.csv
+
+# Processed & temporary Lakehouse artifacts
+data/processed/
+data/parquet/
+data/delta/
+data/checkpoints/
+
+# Streaming dynamic directories (keep folder with .gitkeep, ignore data files)
+data/lake/streaming_source/*
+!data/lake/streaming_source/.gitkeep
+
+data/lake/gold/*
+!data/lake/gold/.gitkeep
+data/lake/gold/features/*
+!data/lake/gold/features/.gitkeep
+
+data/lake/quarantine/*
+!data/lake/quarantine/.gitkeep

@@ -1,0 +1,43 @@
+# ============================================================
+# .dockerignore – Enterprise Fraud Detection
+# ============================================================
+
+# Python virtual environment
+.venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Version control
+.git/
+.gitignore
+
+# Jupyter / notebooks
+notebooks/
+.ipynb_checkpoints/
+
+# Large raw CSV data (keep recommendation samples via data/ COPY)
+data/raw/*.csv
+
+# IDE / editor config
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files (secrets – injected via docker-compose)
+.env
+env.example
+
+# Docker files themselves (not needed inside the image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Miscellaneous
+*.log
+*.egg-info/
+dist/
+build/

@@ -1,0 +1,157 @@
+{
+  "latest_update": "2026-10-14T09:05:28.437426+00:00",
+  "latest_gold_commit_ts": "2026-10-14T09:05:28.437426+00:00",
+  "latest_batch_id": 7,
+  "total_ingested": 800,
+  "total_valid": 760,
+  "total_low_confidence": 0,
+  "total_quarantined": 40,
+  "total_duplicates_suppressed": 0,
+  "reason_code_breakdown": {
+    "NEGATIVE_AMOUNT": 16,
+    "INVALID_TYPE": 8,
+    "NULL_ORIGIN": 8,
+    "TOO_INCOMPLETE": 8
+  },
+  "recent_batches": [
+    {
+      "batch_id": 0,
+      "timestamp": "2026-10-13T15:40:35.860659+00:00",
+      "ingested": 100,
+      "valid": 95,
+      "low_confidence": 0,
+      "quarantined": 5,
+      "duplicates_suppressed": 0,
+      "elapsed_sec": 45.724,
+      "records_per_sec": 2.2,
+      "reasons": {
+        "NEGATIVE_AMOUNT": 2,
+        "INVALID_TYPE": 1,
+        "NULL_ORIGIN": 1,
+        "TOO_INCOMPLETE": 1
+      }
+    },
+    {
+      "batch_id": 1,
+      "timestamp": "2026-10-13T15:41:01.879482+00:00",
+      "ingested": 100,
+      "valid": 95,
+      "low_confidence": 0,
+      "quarantined": 5,
+      "duplicates_suppressed": 0,
+      "elapsed_sec": 18.244,
+      "records_per_sec": 5.5,
+      "reasons": {
+        "NEGATIVE_AMOUNT": 2,
+        "INVALID_TYPE": 1,
+        "NULL_ORIGIN": 1,
+        "TOO_INCOMPLETE": 1
+      }
+    },
+    {
+      "batch_id": 2,
+      "timestamp": "2026-10-13T15:50:41.807113+00:00",
+      "ingested": 100,
+      "valid": 95,
+      "low_confidence": 0,
+      "quarantined": 5,
+      "duplicates_suppressed": 0,
+      "elapsed_sec": 46.554,
+      "records_per_sec": 2.1,
+      "reasons": {
+        "NEGATIVE_AMOUNT": 2,
+        "INVALID_TYPE": 1,
+        "NULL_ORIGIN": 1,
+        "TOO_INCOMPLETE": 1
+      }
+    },
+    {
+      "batch_id": 3,
+      "timestamp": "2026-10-13T15:51:08.747937+00:00",
+      "ingested": 100,
+      "valid": 95,
+      "low_confidence": 0,
+      "quarantined": 5,
+      "duplicates_suppressed": 0,
+      "elapsed_sec": 19.607,
+      "records_per_sec": 5.1,
+      "reasons": {
+        "NEGATIVE_AMOUNT": 2,
+        "INVALID_TYPE": 1,
+        "NULL_ORIGIN": 1,
+        "TOO_INCOMPLETE": 1
+      }
+    },
+    {
+      "batch_id": 4,
+      "timestamp": "2026-10-14T08:25:47.839187+00:00",
+      "ingested": 100,
+      "valid": 95,
+      "low_confidence": 0,
+      "quarantined": 5,
+      "duplicates_suppressed": 0,
+      "elapsed_sec": 39.853,
+      "records_per_sec": 2.5,
+      "reasons": {
+        "NEGATIVE_AMOUNT": 2,
+        "INVALID_TYPE": 1,
+        "NULL_ORIGIN": 1,
+        "TOO_INCOMPLETE": 1
+      }
+    },
+    {
+      "batch_id": 5,
+      "timestamp": "2026-10-14T08:26:04.894862+00:00",
+      "ingested": 100,
+      "valid": 95,
+      "low_confidence": 0,
+      "quarantined": 5,
+      "duplicates_suppressed": 0,
+      "elapsed_sec": 12.408,
+      "records_per_sec": 8.1,
+      "reasons": {
+        "NEGATIVE_AMOUNT": 2,
+        "INVALID_TYPE": 1,
+        "NULL_ORIGIN": 1,
+        "TOO_INCOMPLETE": 1
+      }
+    },
+    {
+      "batch_id": 6,
+      "timestamp": "2026-10-14T09:05:15.562111+00:00",
+      "ingested": 100,
+      "valid": 95,
+      "low_confidence": 0,
+      "quarantined": 5,
+      "duplicates_suppressed": 0,
+      "elapsed_sec": 27.088,
+      "records_per_sec": 3.7,
+      "reasons": {
+        "NEGATIVE_AMOUNT": 2,
+        "INVALID_TYPE": 1,
+        "NULL_ORIGIN": 1,
+        "TOO_INCOMPLETE": 1
+      }
+    },
+    {
+      "batch_id": 7,
+      "timestamp": "2026-10-14T09:05:28.445740+00:00",
+      "ingested": 100,
+      "valid": 95,
+      "low_confidence": 0,
+      "quarantined": 5,
+      "duplicates_suppressed": 0,
+      "elapsed_sec": 10.577,
+      "records_per_sec": 9.5,
+      "reasons": {
+        "NEGATIVE_AMOUNT": 2,
+        "INVALID_TYPE": 1,
+        "NULL_ORIGIN": 1,
+        "TOO_INCOMPLETE": 1
+      }
+    }
+  ],
+  "reconciliation_delta": 0,
+  "reconciliation_status": "BALANCED",
+  "dlq_rejection_rate_pct": 5.0
+}

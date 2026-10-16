@@ -1,0 +1,5 @@
+timestamp,transaction_id,customer_id,action_taken,is_fraud,analyst_notes
+2026-10-10T22:33:35.563144,ALT-1002,C962061404,Confirmed Fraud (Block),1,
+2026-10-14T08:26:16.475980+00:00,TXN_1_0001_000132,C722417467,Challenge Customer (Trigger 2FA / Mock OTP),False,,0.523,STEP_UP_AUTH
+2026-10-14T09:06:32.311225+00:00,TXN_1_0000_000003,C840083671,Challenge Customer (Trigger 2FA / Mock OTP),False,,0.943,BLOCK
+2026-10-14T09:08:21.655961+00:00,TXN_1_0000_000002,C1305486145,Escalate to Tier 2 Fraud Team,False,,0.943,BLOCK
